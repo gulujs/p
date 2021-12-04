@@ -1,0 +1,14 @@
+{
+  "extends": "@lunjs/eslint-config/ts",
+  "env": {
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": ["test/**/*"],
+      "env": {
+        "mocha": true
+      }
+    }
+  ]
+}
